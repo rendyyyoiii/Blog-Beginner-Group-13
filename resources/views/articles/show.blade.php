@@ -9,5 +9,5 @@
             <span class="bg-gray-200 rounded px-2 py-1">{{ $tag->name }}</span>  
         @endforeach  
     </p>  
-    <a href="{{ route('articles.index') }}" class="text-blue-500">Kembali ke Daftar Artikel</a>  
+    <a href="{{ route('home') }}" class="text-blue-500">Kembali ke beranda</a>  
 @endsection

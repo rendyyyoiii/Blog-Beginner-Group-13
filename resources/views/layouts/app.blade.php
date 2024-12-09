@@ -16,9 +16,11 @@
 
         <div class="flex">  
             <!-- Navigasi Kiri -->  
-            <nav class="w-1/4 bg-white shadow-md rounded-lg p-4 mr-4">  
-                <h2 class="text-xl font-bold mb-2">Navigasi</h2>  
+            <nav class="w-1/4 bg-white shadow-md rounded-lg p-4 mr-4">   
                 <ul>  
+                    <li class="mb-2">  
+                        <a href="{{ route('home') }}" class="text-blue-500 hover:text-blue-700 transition">Beranda</a>  
+                    </li>   
                     <li class="mb-2">  
                         <a href="{{ route('articles.index') }}" class="text-blue-500 hover:text-blue-700 transition">Articles</a>  
                     </li>  
@@ -27,7 +29,10 @@
                     </li>  
                     <li class="mb-2">  
                         <a href="{{ route('tags.index') }}" class="text-blue-500 hover:text-blue-700 transition">Tags</a>  
-                    </li>  
+                    </li>
+                    <li class="mb-2">  
+                        <a href="{{ route('about') }}" class="text-blue-500 hover:text-blue-700 transition">About Me</a>  
+                    </li>   
                 </ul>  
             </nav>  
 
